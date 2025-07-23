@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Password Generator</title>
+<link rel="stylesheet" href="logic.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Password Generator</h1>
+   
+    <div>
+      <label><input type="checkbox" name="lowercase" class="lowercase"> Include Lowercase (a-z)</label>
+      <label><input type="checkbox" name="uppercase" class = "uppercase"> Include Uppercase (A-Z)</label>
+      <label><input type="checkbox" name="special" class="special"> Include Special (@, #, %, *)</label>
+      <label><input type="checkbox" name="numbers" class="number"> Include Numbers (0-9)</label>
+    </div>
+    <button type="submit" style="margin-top: 28px;">Generate Password</button>
+    <p>Your password will appear here.</p>
+  </div>
+  <script src="passwordgen.js"></script>
+  <!-- <script src="logic.js"></script> -->
+</body>
+</html>
